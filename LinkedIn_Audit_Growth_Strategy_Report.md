@@ -1,7 +1,7 @@
 # LinkedIn Audit & Growth Strategy: Genex Logistics
 **Document Type:** Strategic Audit & Revenue-Driven Growth Roadmap  
 **Prepared For:** Executive Board & Marketing Team, Genex Logistics India  
-**Prepared By:** Senior B2B Marketing Consultant & Logistics Growth Strategist  
+**Prepared By:** AKHIL MEHTA 
 **Date:** June 18, 2026
 
 ---
