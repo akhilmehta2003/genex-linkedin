@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genex Logistics | LinkedIn</title>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for standard LinkedIn icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar (Replicating LinkedIn Header) -->
+    <header class="linkedin-header">
+        <div class="header-container">
+            <div class="header-left">
+                <!-- LinkedIn Logo Icon -->
+                <a href="#" class="logo-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="linkedin-logo-svg">
+                        <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.2a1.8 1.8 0 111.8-1.8 1.8 1.8 0 01-1.8 1.8zm12.5 10.8h-3v-5.6c0-3.4-4-3.1-4 0V19h-3v-9h3v1.3c1.4-2.6 7-2.8 7 2.5z"/>
+                    </svg>
+                </a>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search" disabled value="Genex Logistics">
+                </div>
+            </div>
+            
+            <nav class="header-right">
+                <a href="#" class="nav-item active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>My Network</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span>Jobs</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-message"></i>
+                    <span>Messaging</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-bell"></i>
+                    <span>Notifications</span>
+                </a>
+                <div class="nav-profile-menu">
+                    <div class="nav-profile-avatar">
+                        <i class="fa-solid fa-user-circle"></i>
+                    </div>
+                    <span class="profile-dropdown-text">Me <i class="fa-solid fa-caret-down"></i></span>
+                </div>
+                <div class="header-divider"></div>
+                <a href="#" class="nav-item business-nav">
+                    <i class="fa-solid fa-grid-3x3"></i>
+                    <span>For Business <i class="fa-solid fa-caret-down"></i></span>
+                </a>
+                <a href="#" class="premium-badge-link">Try Premium for ₹0</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="page-container">
+        <div class="main-content-layout">
+            
+            <!-- Left Side / Main Feed & Profile Card -->
+            <div class="profile-column-left">
+                
+                <!-- Company Profile Header Card (Optimized Design) -->
+                <section class="profile-card">
+                    <!-- Optimized Banner -->
+                    <div class="profile-banner-container">
+                        <div class="profile-banner-content">
+                            <div class="banner-badge">OPTIMIZED B2B PROFILE</div>
+                            <h1 class="banner-title">Precision 3PL & Free Trade Warehousing</h1>
+                            <p class="banner-subtitle">Built for SLA-Critical Industries (Automotive, Pharma, Engineering)</p>
+                            <div class="banner-stats">
+                                <span><i class="fa-solid fa-map-location-dot"></i> Pan-India (28 States)</span>
+                                <span><i class="fa-solid fa-warehouse"></i> 5M+ Sq. Ft. Managed</span>
+                                <span><i class="fa-solid fa-shield-halved"></i> 99.98% SLA Compliance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profile Details -->
+                    <div class="profile-header-details">
+                        <!-- Profile Logo -->
+                        <div class="profile-logo-container">
+                            <div class="profile-logo-bg">
+                                <span class="logo-letter">G</span>
+                            </div>
+                        </div>
+
+                        <!-- Info Header Block -->
+                        <div class="profile-info-block">
+                            <div class="company-title-row">
+                                <h2 class="company-name">Genex Logistics</h2>
+                                <span class="badge-verified"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                            </div>
+                            <p class="company-tagline">Technology-Driven 3PL, Contract Logistics & FTWZ Solutions in India | Active in 28+ States</p>
+                            <p class="company-meta">
+                                <span class="meta-industry">Logistics & Supply Chain</span> &bull; 
+                                <span class="meta-location">New Delhi, Delhi</span> &bull; 
+                                <span id="follower-count" class="meta-followers">10,240</span> followers &bull; 
+                                <span class="meta-employees">201-500 employees</span>
+                            </p>
+                            <p class="employee-activity"><a href="#" class="employee-link"><i class="fa-solid fa-users"></i> See all 314 employees on LinkedIn</a></p>
+                        </div>
+
+                        <!-- CTA & Interaction Action Buttons -->
+                        <div class="profile-actions-row">
+                            <button id="cta-contact-us" class="btn-primary-cta">
+                                <i class="fa-solid fa-paper-plane"></i> Contact Us
+                            </button>
+                            <button id="btn-follow-toggle" class="btn-secondary-action">
+                                <i class="fa-solid fa-plus"></i> <span id="follow-btn-text">Follow</span>
+                            </button>
+                            <button id="cta-free-audit" class="btn-secondary-action btn-accent-outline">
+                                <i class="fa-solid fa-calculator"></i> Request Free Audit
+                            </button>
+                            <button class="btn-icon-action" title="More options">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Profile Navigation Tabs -->
+                    <nav class="profile-navigation-tabs">
+                        <button class="tab-btn active" data-tab="home">Home</button>
+                        <button class="tab-btn" data-tab="about">About</button>
+                        <button class="tab-btn" data-tab="posts">Posts</button>
+                        <button class="tab-btn" data-tab="services">Services & Showcase</button>
+                    </nav>
+                </section>
+
+                <!-- Dynamic Content Display Panels -->
+                <div class="dynamic-panels-container">
+                    
+                    <!-- TAB 1: HOME PANEL -->
+                    <div id="panel-home" class="tab-panel active">
+                        <!-- About Preview Section -->
+                        <div class="content-card about-preview-card">
+                            <div class="card-header">
+                                <h3>About</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="preview-description-text">
+                                    Genex Logistics (Genex Logisolutions Pvt. Ltd.) is a premier technology-driven third-party logistics (3PL) and supply chain solutions provider in India. Founded in 2011 and headquartered in New Delhi, we specialize in high-stakes logistics where a missed SLA stops a production line. We manage complex distribution networks, cold chains for pharmaceuticals, and operate specialized Free Trade Warehousing Zones (FTWZ) that defer customs duties and optimize import-export cash flows... <span class="read-more-link" onclick="switchTab('about')">See all details</span>
+                                </p>
+                                <div class="about-quick-specs">
+                                    <div class="spec-item">
+                                        <span class="spec-label">Website:</span>
+                                        <a href="https://www.genexlogistics.in/" target="_blank" class="spec-val-link">www.genexlogistics.in <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-label">Phone:</span>
+                                        <span class="spec-value">+91-11-47051166</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-label">Headquarters:</span>
+                                        <span class="spec-value">New Delhi, Delhi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Posts Feed Section -->
+                        <div class="feed-section">
+                            <div class="feed-header-title">
+                                <h3>Recent updates</h3>
+                            </div>
+
+                            <!-- Post 1: Interactive PSR Case Study (PDF Carousel) -->
+                            <div class="feed-post-card">
+                                <div class="post-header">
+                                    <div class="post-author-logo">
+                                        <span class="post-logo-letter">G</span>
+                                    </div>
+                                    <div class="post-author-details">
+                                        <h4>Genex Logistics</h4>
+                                        <p class="author-subtext">10,240 followers</p>
+                                        <p class="post-timestamp">1 day ago &bull; <i class="fa-solid fa-earth-americas" title="Shared with Public"></i></p>
+                                    </div>
+                                    <button class="post-more-options"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                                <div class="post-content">
+                                    <p class="post-body-text">
+                                        How do you keep an automotive production line running when a single missing spare part costs ₹12 Lakhs per hour in SLA penalties? 🚗🛠️<br><br>
+                                        We recently optimized the warehousing and distribution workflow for a leading global automotive OEM. By integrating our Warehouse Management System (WMS) and establishing a custom JIT staging dock, we slashed parts dispatch turnaround times from 4 hours to just 45 minutes.<br><br>
+                                        Swipe through our <strong>B2B Case Study Carousel</strong> below to see the exact numbers: 👇
+                                    </p>
+                                    
+                                    <!-- Interactive PDF Carousel Component -->
+                                    <div class="interactive-carousel-container" id="case-study-carousel">
+                                        <div class="carousel-track">
+                                            <!-- Slide 1 -->
+                                            <div class="carousel-slide active" data-slide="1">
+                                                <div class="slide-content-layout cover-slide">
+                                                    <div class="slide-watermark">GENEX LOGISTICS</div>
+                                                    <div class="slide-badge">B2B CASE STUDY</div>
+                                                    <h2>SLA-Critical Automotive Logistics</h2>
+                                                    <p class="slide-subtitle">How Genex Slashed Dispatch Turnaround Times by 80% for a Global OEM</p>
+                                                    <div class="swipe-indicator">Swipe or Click Next &rarr;</div>
+                                                </div>
+                                            </div>
+                                            <!-- Slide 2 -->
+                                            <div class="carousel-slide" data-slide="2">
+                                                <div class="slide-content-layout content-slide">
+                                                    <div class="slide-header-row">
+                                                        <span class="slide-number">01 / Challenge</span>
+                                                        <span class="slide-logo-text">Genex Case Study</span>
+                                                    </div>
+                                                    <h3>Assembly Line Stoppage Risk</h3>
+                                                    <p class="slide-text">The client's automotive factory was experiencing severe delays due to a 4-hour retrieval bottleneck at their legacy 3PL partner's facility.</p>
+                                                    <div class="stat-highlight-box border-red">
+                                                        <span class="stat-num text-red">₹12 Lakhs</span>
+                                                        <span class="stat-lbl">Estimated Line-Stoppage Penalty per Hour</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Slide 3 -->
+                                            <div class="carousel-slide" data-slide="3">
+                                                <div class="slide-content-layout content-slide">
+                                                    <div class="slide-header-row">
+                                                        <span class="slide-number">02 / Solution</span>
+                                                        <span class="slide-logo-text">Genex Case Study</span>
+                                                    </div>
+                                                    <h3>Deploying Tech-Enabled JIT Operations</h3>
+                                                    <p class="slide-text">Genex deployed a dedicated team and updated WMS inventory tracking to solve the bottleneck:</p>
+                                                    <ul class="slide-bullet-list">
+                                                        <li><strong>WMS API Integration:</strong> Direct handshake with factory ERP to predict part requirements.</li>
+                                                        <li><strong>Dedicated JIT Staging Docks:</strong> Pre-sorting components based on hourly assembly line sequence.</li>
+                                                        <li><strong>Custom Barcode System:</strong> Instant localization of high-priority bins.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- Slide 4 -->
+                                            <div class="carousel-slide" data-slide="4">
+                                                <div class="slide-content-layout content-slide">
+                                                    <div class="slide-header-row">
+                                                        <span class="slide-number">03 / Results</span>
+                                                        <span class="slide-logo-text">Genex Case Study</span>
+                                                    </div>
+                                                    <h3>SLA Restored, Cost Avoided</h3>
+                                                    <p class="slide-text">The operational metrics showed a significant performance improvement after 30 days of implementation:</p>
+                                                    <div class="results-stats-row">
+                                                        <div class="res-stat-card">
+                                                            <span class="res-stat-val text-green">-80%</span>
+                                                            <span class="res-stat-desc">Turnaround Time (4 hrs down to 45 mins)</span>
+                                                        </div>
+                                                        <div class="res-stat-card">
+                                                            <span class="res-stat-val text-green">99.98%</span>
+                                                            <span class="res-stat-desc">On-Time SLA Delivery Adherence</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Slide 5 -->
+                                            <div class="carousel-slide" data-slide="5">
+                                                <div class="slide-content-layout final-slide">
+                                                    <div class="slide-watermark">GENEX</div>
+                                                    <h3>Is Your Logistics Partner Meeting SLAs?</h3>
+                                                    <p>Let Genex Logistics conduct a detailed operation audit of your current warehousing setup at no cost.</p>
+                                                    <button class="slide-action-btn" onclick="openQuoteModal('3PL Warehousing')">Request Free Warehousing Audit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Carousel Controls -->
+                                        <div class="carousel-navigation-bar">
+                                            <button class="carousel-nav-btn prev-btn" disabled><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                                            <div class="carousel-indicators">
+                                                <span class="indicator active" data-go="1"></span>
+                                                <span class="indicator" data-go="2"></span>
+                                                <span class="indicator" data-go="3"></span>
+                                                <span class="indicator" data-go="4"></span>
+                                                <span class="indicator" data-go="5"></span>
+                                            </div>
+                                            <button class="carousel-nav-btn next-btn">Next <i class="fa-solid fa-chevron-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Post Engagement Panel -->
+                                <div class="post-engagement-info">
+                                    <div class="like-counter">
+                                        <span class="like-icon-circle"><i class="fa-solid fa-thumbs-up"></i></span>
+                                        <span class="like-icon-heart"><i class="fa-solid fa-heart"></i></span>
+                                        <span id="post1-like-count" class="engagement-count-text">142 likes</span>
+                                    </div>
+                                    <div class="comment-share-counter">
+                                        <span>32 comments</span> &bull; <span>14 reposts</span>
+                                    </div>
+                                </div>
+                                <div class="post-action-buttons">
+                                    <button class="btn-post-action" id="btn-like-post1">
+                                        <i class="fa-regular fa-thumbs-up"></i> <span>Like</span>
+                                    </button>
+                                    <button class="btn-post-action" onclick="toggleComments('comments-post1')">
+                                        <i class="fa-regular fa-comment-dots"></i> <span>Comment</span>
+                                    </button>
+                                    <button class="btn-post-action">
+                                        <i class="fa-solid fa-arrows-spin"></i> <span>Repost</span>
+                                    </button>
+                                    <button class="btn-post-action">
+                                        <i class="fa-regular fa-paper-plane"></i> <span>Send</span>
+                                    </button>
+                                </div>
+                                
+                                <!-- Inline Comments Container -->
+                                <div class="comments-section" id="comments-post1">
+                                    <div class="comment-input-row">
+                                        <div class="comment-avatar">G</div>
+                                        <div class="comment-input-wrapper">
+                                            <input type="text" placeholder="Add a comment..." class="comment-input-field">
+                                            <button class="btn-submit-comment">Post</button>
+                                        </div>
+                                    </div>
+                                    <div class="comments-list">
+                                        <div class="comment-item">
+                                            <div class="comment-avatar">AK</div>
+                                            <div class="comment-box">
+                                                <div class="comment-box-header">
+                                                    <h5>Amit Kulkarni</h5>
+                                                    <span class="comment-title">Head of Supply Chain &bull; Auto Parts Inc.</span>
+                                                </div>
+                                                <p class="comment-text">4 hours dispatch down to 45 mins is an incredible improvement in JIT logistics. SLA compliance is the biggest pain point in automotive sourcing today.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Post 2: Educational Post (FTWZ Custom Cost Savings Comparison) -->
+                            <div class="feed-post-card">
+                                <div class="post-header">
+                                    <div class="post-author-logo">
+                                        <span class="post-logo-letter">G</span>
+                                    </div>
+                                    <div class="post-author-details">
+                                        <h4>Genex Logistics</h4>
+                                        <p class="author-subtext">10,240 followers</p>
+                                        <p class="post-timestamp">3 days ago &bull; <i class="fa-solid fa-earth-americas" title="Shared with Public"></i></p>
+                                    </div>
+                                    <button class="post-more-options"><i class="fa-solid fa-ellipsis"></i></button>
+                                </div>
+                                <div class="post-content">
+                                    <p class="post-body-text">
+                                        Did you know that importing raw materials or finished goods via a <strong>Free Trade Warehousing Zone (FTWZ)</strong> can defer customs duty indefinitely and save up to 18% in cash flow by avoiding immediate GST payment? 💸📦<br><br>
+                                        For MNCs importing goods into India, FTWZ serves as a legal tax-optimization channel. Here is a direct breakdown of how importing through Genex FTWZ zones saves you operational cash:
+                                    </p>
+                                    
+                                    <!-- Interactive Comparison Card -->
+                                    <div class="ftwz-comparison-box">
+                                        <h4 class="comparison-title"><i class="fa-solid fa-right-left"></i> Import Logistics Comparison</h4>
+                                        <div class="comparison-columns">
+                                            <div class="compare-col traditional">
+                                                <h5>Traditional Import Model</h5>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-xmark text-red"></i> <strong>18% GST</strong> + customs duty payable immediately upon landing.</li>
+                                                    <li><i class="fa-solid fa-xmark text-red"></i> High port demurrage charges if clearance is delayed.</li>
+                                                    <li><i class="fa-solid fa-xmark text-red"></i> Re-exporting requires tedious drawback procedures.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="compare-col ftwz-optimized">
+                                                <h5>Genex FTWZ Model <span class="badge-saving">Duty Deferred</span></h5>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-check text-green"></i> <strong>Zero GST/Customs</strong> until final domestic warehouse dispatch.</li>
+                                                    <li><i class="fa-solid fa-check text-green"></i> De-consolidate and store up to 2 years with no interest.</li>
+                                                    <li><i class="fa-solid fa-check text-green"></i> Re-export directly with zero domestic duty friction.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="comparison-footer">
+                                            <button class="btn-comparison-cta" onclick="openQuoteModal('FTWZ & Duty Deferral')">Calculate Your FTWZ Duty Savings &rarr;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="post-engagement-info">
+                                    <div class="like-counter">
+                                        <span class="like-icon-circle"><i class="fa-solid fa-thumbs-up"></i></span>
+                                        <span id="post2-like-count" class="engagement-count-text">89 likes</span>
+                                    </div>
+                                    <div class="comment-share-counter">
+                                        <span>12 comments</span> &bull; <span>8 reposts</span>
+                                    </div>
+                                </div>
+                                <div class="post-action-buttons">
+                                    <button class="btn-post-action" id="btn-like-post2">
+                                        <i class="fa-regular fa-thumbs-up"></i> <span>Like</span>
+                                    </button>
+                                    <button class="btn-post-action" onclick="toggleComments('comments-post2')">
+                                        <i class="fa-regular fa-comment-dots"></i> <span>Comment</span>
+                                    </button>
+                                    <button class="btn-post-action">
+                                        <i class="fa-solid fa-arrows-spin"></i> <span>Repost</span>
+                                    </button>
+                                    <button class="btn-post-action">
+                                        <i class="fa-regular fa-paper-plane"></i> <span>Send</span>
+                                    </button>
+                                </div>
+                                
+                                <!-- Comments for Post 2 -->
+                                <div class="comments-section" id="comments-post2">
+                                    <div class="comment-input-row">
+                                        <div class="comment-avatar">G</div>
+                                        <div class="comment-input-wrapper">
+                                            <input type="text" placeholder="Add a comment..." class="comment-input-field">
+                                            <button class="btn-submit-comment">Post</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 2: ABOUT PANEL -->
+                    <div id="panel-about" class="tab-panel">
+                        <div class="content-card full-about-card">
+                            <div class="card-header">
+                                <h3>Overview</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="full-about-p">
+                                    Genex Logistics (legally Genex Logisolutions Private Limited) is an ISO 9001:2015 certified, technology-driven contract logistics and 3PL warehousing provider operating across India. Established in 2011, Genex was created to fill the critical gap in precision logistics for industries requiring zero-error compliance and JIT (Just-in-Time) production support.
+                                </p>
+                                <p class="full-about-p">
+                                    We support manufacturing operations in the automotive, industrial engineering, electronics, consumer durables, and pharmaceutical sectors. In addition to domestic warehousing and freight management, Genex operates Free Trade Warehousing Zone (FTWZ) capabilities in key industrial corridors, allowing multinational corporations to set up duty-free consolidation hubs, defer taxes legally, and execute efficient custom clearance programs matching real-time domestic demands.
+                                </p>
+
+                                <hr class="divider-line">
+
+                                <div class="specs-grid">
+                                    <div class="spec-grid-item">
+                                        <span class="grid-label">Website</span>
+                                        <a href="https://www.genexlogistics.in" target="_blank" class="grid-value link">www.genexlogistics.in</a>
+                                    </div>
+                                    <div class="spec-grid-item">
+                                        <span class="grid-label">Industry</span>
+                                        <span class="grid-value">Logistics & Supply Chain</span>
+                                    </div>
+                                    <div class="spec-grid-item">
+                                        <span class="grid-label">Company size</span>
+                                        <span class="grid-value">201-500 employees (314 registered on LinkedIn)</span>
+                                    </div>
+                                    <div class="spec-grid-item">
+                                        <span class="grid-label">Headquarters</span>
+                                        <span class="grid-value">Dwarka, New Delhi, Delhi</span>
+                                    </div>
+                                    <div class="spec-grid-item">
+                                        <span class="grid-label">Type</span>
+                                        <span class="grid-value">Privately Held</span>
+                                    </div>
+                                    <div class="spec-grid-item">
+                                        <span class="grid-label">Founded</span>
+                                        <span class="grid-value">2011</span>
+                                    </div>
+                                    <div class="spec-grid-item full-width">
+                                        <span class="grid-label">Specialties</span>
+                                        <span class="grid-value">3PL Warehousing, Free Trade Warehousing Zone (FTWZ), Bonded Storage, Contract Logistics, Automotive JIT Delivery, Pharma GDP Temperature Control, Custom Clearance, Freight Forwarding</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 3: POSTS PANEL -->
+                    <div id="panel-posts" class="tab-panel">
+                        <!-- Feed Section replicated here for dedicated tab -->
+                        <div class="feed-section" id="dedicated-feed-container">
+                            <!-- JS will dynamically copy feed items here if needed, or we display posts panel directly -->
+                            <p class="posts-tab-intro-text">Showing all updates by Genex Logistics</p>
+                            <!-- Feed elements are visible in Posts tab -->
+                        </div>
+                    </div>
+
+                    <!-- TAB 4: SERVICES PANEL -->
+                    <div id="panel-services" class="tab-panel">
+                        <div class="content-card services-card">
+                            <div class="card-header">
+                                <h3>Our Strategic Logistics Solutions</h3>
+                                <p class="card-subtitle-text">Click any service to request detailed specifications or rate quotes.</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="services-grid">
+                                    <!-- Service 1 -->
+                                    <div class="service-item-card" onclick="openQuoteModal('3PL Warehousing')">
+                                        <div class="service-icon-wrapper">
+                                            <i class="fa-solid fa-warehouse"></i>
+                                        </div>
+                                        <h4>3PL & Contract Logistics</h4>
+                                        <p>Custom warehousing layouts, multi-user flexible storage facilities, kitting, tagging, and barcoding with custom ERP integrations.</p>
+                                        <span class="service-card-action">Request Quote &rarr;</span>
+                                    </div>
+                                    <!-- Service 2 -->
+                                    <div class="service-item-card" onclick="openQuoteModal('FTWZ & Duty Deferral')">
+                                        <div class="service-icon-wrapper">
+                                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                                        </div>
+                                        <h4>Free Trade Warehousing (FTWZ)</h4>
+                                        <p>Indefinite custom duty deferral, zero GST on import storage, simplified re-export, and partial custom clearance matching your demand schedule.</p>
+                                        <span class="service-card-action">Request Quote &rarr;</span>
+                                    </div>
+                                    <!-- Service 3 -->
+                                    <div class="service-item-card" onclick="openQuoteModal('Freight Forwarding')">
+                                        <div class="service-icon-wrapper">
+                                            <i class="fa-solid fa-ship"></i>
+                                        </div>
+                                        <h4>Ocean & Air Freight Forwarding</h4>
+                                        <p>Global forwarding network with integrated customs clearance and door-to-door transit for LCL, FCL, and oversized cargo.</p>
+                                        <span class="service-card-action">Request Quote &rarr;</span>
+                                    </div>
+                                    <!-- Service 4 -->
+                                    <div class="service-item-card" onclick="openQuoteModal('Cold Chain')">
+                                        <div class="service-icon-wrapper">
+                                            <i class="fa-solid fa-snowflake"></i>
+                                        </div>
+                                        <h4>Pharma Cold Chain (GDP Compliant)</h4>
+                                        <p>Fully compliant temperature-controlled environments (+2°C to +8°C and +15°C to +25°C) with continuous active temperature datalogging.</p>
+                                        <span class="service-card-action">Request Quote &rarr;</span>
+                                    </div>
+                                    <!-- Service 5 -->
+                                    <div class="service-item-card" onclick="openQuoteModal('Project Logistics')">
+                                        <div class="service-icon-wrapper">
+                                            <i class="fa-solid fa-truck-flatbed"></i>
+                                        </div>
+                                        <h4>Project & Heavy Lift Logistics</h4>
+                                        <p>Over-dimensional cargo (ODC) handling, heavy machinery transport, route feasibility surveys, and specialized crane deployments.</p>
+                                        <span class="service-card-action">Request Quote &rarr;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Column / Sidebar Widgets -->
+            <div class="profile-column-right">
+                
+                <!-- B2B Quote Lead Capture Box (Growth Strategy Win) -->
+                <div class="sidebar-card lead-capture-widget">
+                    <div class="lead-widget-gradient"></div>
+                    <div class="lead-widget-content">
+                        <h4><i class="fa-solid fa-chart-line"></i> Free Supply Chain Audit</h4>
+                        <p>Are your current 3PL logistics SLAs underperforming? Let our logistics engineers evaluate your warehousing structure for inefficiency.</p>
+                        <ul class="widget-bullet-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Evaluate space optimization</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Review current SLA matching</li>
+                            <li><i class="fa-solid fa-circle-check"></i> FTWZ tax-savings assessment</li>
+                        </ul>
+                        <button id="btn-sidebar-quote" class="btn-sidebar-action">Request Free Assessment</button>
+                    </div>
+                </div>
+
+                <!-- Competitor Benchmarking Sidebar Card -->
+                <div class="sidebar-card standard-sidebar-card">
+                    <div class="sidebar-card-header">
+                        <h4>Pages people also viewed</h4>
+                    </div>
+                    <div class="sidebar-card-body">
+                        <!-- Competitor 1 -->
+                        <div class="competitor-row">
+                            <div class="comp-logo m-logo">M</div>
+                            <div class="comp-details">
+                                <a href="#">Mahindra Logistics</a>
+                                <p>Logistics & Supply Chain &bull; 152,000 followers</p>
+                                <button class="comp-follow-btn"><i class="fa-solid fa-plus"></i> Follow</button>
+                            </div>
+                        </div>
+                        <!-- Competitor 2 -->
+                        <div class="competitor-row">
+                            <div class="comp-logo t-logo">T</div>
+                            <div class="comp-details">
+                                <a href="#">TVS Supply Chain Solutions</a>
+                                <p>Logistics & Supply Chain &bull; 108,000 followers</p>
+                                <button class="comp-follow-btn"><i class="fa-solid fa-plus"></i> Follow</button>
+                            </div>
+                        </div>
+                        <!-- Competitor 3 -->
+                        <div class="competitor-row">
+                            <div class="comp-logo b-logo">B</div>
+                            <div class="comp-details">
+                                <a href="#">Blue Dart</a>
+                                <p>Transportation/Fulfillment &bull; 265,000 followers</p>
+                                <button class="comp-follow-btn"><i class="fa-solid fa-plus"></i> Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intern Strategy Dashboard (Interactive Easter Egg) -->
+                <div class="sidebar-card standard-sidebar-card intern-dashboard-widget">
+                    <div class="sidebar-card-header">
+                        <h4><i class="fa-solid fa-shield-cat"></i> Intern Marketing Dashboard</h4>
+                    </div>
+                    <div class="sidebar-card-body">
+                        <p class="intern-dash-desc">Manage metrics dynamically for this prototype mockup:</p>
+                        <div class="intern-metrics-row">
+                            <div class="dash-metric">
+                                <span id="dash-metric-followers">10,240</span>
+                                <span class="metric-label">Followers</span>
+                            </div>
+                            <div class="dash-metric">
+                                <span id="dash-metric-likes">231</span>
+                                <span class="metric-label">Post Likes</span>
+                            </div>
+                        </div>
+                        <div class="intern-actions">
+                            <button id="btn-reset-proto" class="btn-dash-action"><i class="fa-solid fa-arrows-rotate"></i> Reset Prototype States</button>
+                            <a href="LinkedIn_Audit_Growth_Strategy_Report.md" target="_blank" class="link-view-report"><i class="fa-solid fa-file-invoice"></i> View Audit Strategy Report</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- B2B Quote Lead Capture Modal Overlay -->
+    <div id="quote-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button id="modal-close" class="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header-decor"></div>
+            <div class="modal-body-content">
+                <h3 class="modal-title">Request B2B Logistics Audit & Quote</h3>
+                <p class="modal-desc">Fill out this quick form and our Logistics Consultant will coordinate with you to supply custom quotes and warehouse feasibility metrics.</p>
+                
+                <!-- Modal Form (Input elements) -->
+                <form id="quote-lead-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-name">Full Name <span class="text-red">*</span></label>
+                            <input type="text" id="contact-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Corporate Email <span class="text-red">*</span></label>
+                            <input type="email" id="contact-email" placeholder="john.doe@company.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-company">Company Name <span class="text-red">*</span></label>
+                            <input type="text" id="contact-company" placeholder="Enterprise OEM Pvt Ltd" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number <span class="text-red">*</span></label>
+                            <input type="tel" id="contact-phone" placeholder="+91 99999 88888" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-service">Primary Supply Chain Need <span class="text-red">*</span></label>
+                            <select id="contact-service" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="3PL Warehousing">3PL Domestic Warehousing &amp; Distribution</option>
+                                <option value="FTWZ & Duty Deferral">Free Trade Warehousing (FTWZ &amp; Duty Deferral)</option>
+                                <option value="Freight Forwarding">International Ocean/Air Freight Forwarding</option>
+                                <option value="Cold Chain">Pharma GDP Cold Chain Solutions</option>
+                                <option value="Project Logistics">Project Cargo &amp; Heavy Lift Transport</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-budget">Estimated Annual Logistics Spend</label>
+                            <select id="contact-budget">
+                                <option value="" disabled selected>Select range</option>
+                                <option value="< ₹50 Lakhs">Under ₹50 Lakhs</option>
+                                <option value="₹50L - ₹2 Crores">₹50 Lakhs to ₹2 Crores</option>
+                                <option value="₹2Cr - ₹10 Crores">₹2 Crores to ₹10 Crores</option>
+                                <option value="> ₹10 Crores">Over ₹10 Crores</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-requirements">Brief Operational Requirements / Pain Points</label>
+                        <textarea id="contact-requirements" rows="3" placeholder="Describe the challenges you're looking to resolve (e.g., current SLA bottlenecks, warehousing capacity, customs duty concerns)"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit-lead-form">Submit Consultation Request</button>
+                </form>
+
+                <!-- Modal Success Confirmation Panel -->
+                <div id="form-success-panel" class="success-panel">
+                    <div class="success-icon-circle">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h4>Request Submitted Successfully!</h4>
+                    <p>Thank you for reaching out to Genex Logistics.</p>
+                    <div class="success-followup-details">
+                        <p><strong>Next Steps:</strong></p>
+                        <ul>
+                            <li>Our B2B Logistics Strategist is reviewing your company profile.</li>
+                            <li>An initial feasibility analysis report will be emailed to you at <span id="success-email-display">your email</span>.</li>
+                            <li>We will contact you within 4 hours to coordinate details.</li>
+                        </ul>
+                    </div>
+                    <button id="btn-success-close" class="btn-primary-cta">Back to LinkedIn Profile</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS Application Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
