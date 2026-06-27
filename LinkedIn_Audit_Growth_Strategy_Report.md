@@ -93,7 +93,7 @@ To build a winning strategy, we analyze the LinkedIn performance of top B2B logi
 
 | Metric / Aspect | Genex Logistics | Mahindra Logistics | TVS Supply Chain Solutions | Blue Dart (DHL Group) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Estimated Follower Range** | ~5,000 - 15,000 | 150,000+ | 100,000+ | 250,000+ |
+| **Estimated Follower Range** | ~19,000 - 25,000 | 150,000+ | 100,000+ | 250,000+ |
 | **Avg. Engagement Rate** | < 1.0% | ~3.5% - 4.5% | ~2.5% - 3.5% | ~2.0% - 3.0% |
 | **Primary Content Strategy** | Event photos, holiday greetings, basic text updates. | Data-driven whitepapers, warehouse automation videos, green logistics. | Global logistics case studies, supply chain resilience, technology focus. | Brand reliability, global reach highlights, logistics tracking. |
 | **Lead Gen Tactics** | None visible on LinkedIn. | High-value webinars, gated industry reports. | Case studies, interactive client roundtables. | Direct service link integration, corporate account portals. |
